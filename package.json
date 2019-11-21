@@ -5,10 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "push": "bash deploy.sh"
   },
   "dependencies": {
     "amfe-flexible": "^2.2.1",
+    "axios": "^0.19.0",
     "core-js": "^3.3.2",
     "cube-ui": "~1.12.15",
     "vue": "^2.6.10",

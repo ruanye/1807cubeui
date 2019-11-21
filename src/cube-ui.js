@@ -1,8 +1,5 @@
-import Vue from 'vue'
-
-// By default we import all the components.
-// Only reserve the components on demand and remove the rest.
-// Style is always required.
+// 引入组件 cube-ui.js
+import Vue from 'vue';
 import {
   /* eslint-disable no-unused-vars */
   Style,
@@ -46,43 +43,46 @@ import {
   Swipe,
   Sticky,
   ScrollNav,
-  ScrollNavBar
-} from 'cube-ui'
+  ScrollNavBar,
+  // list
+  RecycleList,
+} from 'cube-ui';
 
-Vue.use(Button)
-Vue.use(Loading)
-Vue.use(Tip)
-Vue.use(Toolbar)
-Vue.use(TabBar)
-Vue.use(TabPanels)
-Vue.use(Checkbox)
-Vue.use(CheckboxGroup)
-Vue.use(Checker)
-Vue.use(Radio)
-Vue.use(RadioGroup)
-Vue.use(Input)
-Vue.use(Textarea)
-Vue.use(Select)
-Vue.use(Switch)
-Vue.use(Rate)
-Vue.use(Validator)
-Vue.use(Upload)
-Vue.use(Form)
-Vue.use(Popup)
-Vue.use(Toast)
-Vue.use(Picker)
-Vue.use(CascadePicker)
-Vue.use(DatePicker)
-Vue.use(TimePicker)
-Vue.use(SegmentPicker)
-Vue.use(Dialog)
-Vue.use(ActionSheet)
-Vue.use(Drawer)
-Vue.use(ImagePreview)
-Vue.use(Scroll)
-Vue.use(Slide)
-Vue.use(IndexList)
-Vue.use(Swipe)
-Vue.use(Sticky)
-Vue.use(ScrollNav)
-Vue.use(ScrollNavBar)
+Vue.use(Button);
+Vue.use(Loading);
+Vue.use(Tip);
+Vue.use(Toolbar);
+Vue.use(TabBar);
+Vue.use(TabPanels);
+Vue.use(Checkbox);
+Vue.use(CheckboxGroup);
+Vue.use(Checker);
+Vue.use(Radio);
+Vue.use(RadioGroup);
+Vue.use(Input);
+Vue.use(Textarea);
+Vue.use(Select);
+Vue.use(Switch);
+Vue.use(Rate);
+Vue.use(Validator);
+Vue.use(Upload);
+Vue.use(Form);
+Vue.use(Popup);
+Vue.use(Toast);
+Vue.use(Picker);
+Vue.use(CascadePicker);
+Vue.use(DatePicker);
+Vue.use(TimePicker);
+Vue.use(SegmentPicker);
+Vue.use(Dialog);
+Vue.use(ActionSheet);
+Vue.use(Drawer);
+Vue.use(ImagePreview);
+Vue.use(Scroll);
+Vue.use(Slide);
+Vue.use(IndexList);
+Vue.use(Swipe);
+Vue.use(Sticky);
+Vue.use(ScrollNav);
+Vue.use(ScrollNavBar);
+Vue.use(RecycleList);
