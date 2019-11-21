@@ -1,7 +1,7 @@
 <template>
   <div>
     {{ msg }}
-    这是儿子组件
+    这是儿子组件显示888888
     {{ money }}
     <button @click="change">
       点击改变

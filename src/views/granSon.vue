@@ -1,7 +1,7 @@
 <template>
   <div>
     <button @click="fn1">
-      孙子调用爷爷的input事件
+      孙子调用爷爷的input事件99999
     </button>
     这是孙子组件
     {{ $attrs }}

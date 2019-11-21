@@ -22,6 +22,19 @@ Vue 组件间通信方式
 8.  $parent 和 $children
 9.  slot
 
+# vue 的优化
+
+1. key 的使用 domdiff
+2. 对不需要展示到 dom 的属性 Object.freeze 的数据不会在被劫持
+3. 组件细分
+4. 异步组件 和路由懒加载
+5. keep-alive
+6. 尽量使用 v-if 代替 v-show
+7. 使用 computed 代替一些函数
+8. 预渲染(数据不够动态)
+9. 骨架屏
+10. SSR（服务器端渲染）nuxt.js
+
 # 一.Props 传递数据
 
 ```js
